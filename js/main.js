@@ -1,3 +1,9 @@
+/**
+ * Template Name: GPortfolio
+ * Updated: Nov 28 2023 with HTML CSS and JavaScript
+ * Author: Goodness Adewuyi
+ */
+
 // Navigation bar effects on scroll
 window.addEventListener("scroll", function () {
   const header = document.querySelector("header");

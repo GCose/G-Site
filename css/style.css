@@ -1,3 +1,9 @@
+/**
+* Template Name: GPortfolio
+* Updated: Nov 28 2023 with HTML CSS and JavaScript
+* Author: Goodness Adewuyi
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
@@ -212,7 +218,7 @@ header.sticky .nav-bar {
 /*=======Home Section=======*/
 .home {
   position: relative;
-  max-width: 1280px;
+  max-width: 1250px;
   min-height: 100vh;
   margin-left: auto;
   margin-right: auto;
@@ -287,8 +293,8 @@ header.sticky .nav-bar {
 }
 
 .home-container .home-img img {
-  width: 70%;
-  border-radius: 500px 500px;
+  width: 80%;
+  border-radius: 500px;
   transform: translateX(0, 0);
   animation: imageanimates ease 2s infinite;
 }
@@ -1443,12 +1449,11 @@ footer a {
 
   .home-container .home-img {
     position: absolute;
-    width: 60%;
+    width: 40%;
   }
 
   .home-container .home-img img {
-    width: 65%;
-    transform: translate(80px, -180px);
+    transform: translate(90px, -180px);
     animation: imageanimates ease 2s infinite;
   }
 
@@ -1457,7 +1462,7 @@ footer a {
       transform: translateY(80px, -180px);
     }
     50% {
-      transform: scale(-1.01px);
+      transform: scaleY(0.8px);
     }
   }
 
@@ -1466,7 +1471,11 @@ footer a {
   }
 
   .media-icons {
-    margin-bottom: 70px;
+    margin-bottom: 20px;
+  }
+
+  .skills-info {
+    grid-template-columns: 1fr;
   }
 
   /*=======Get-in-touch section=======*/
