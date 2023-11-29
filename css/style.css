@@ -236,7 +236,7 @@ header.sticky .nav-bar {
 .home-container .media-icons {
   display: flex;
   flex-direction: column;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .home-container .media-icons a {
@@ -473,7 +473,7 @@ header.sticky .nav-bar {
 .about-img img {
   max-width: 100%;
   min-width: 500px;
-  border-radius: 30px;
+  border-radius: 10px;
   animation: imagefloats 2s infinite;
 }
 
