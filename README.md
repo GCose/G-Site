@@ -1,4 +1,4 @@
-# Old Porfolio (Since 2020)
+# Old Portfolio (Since 2020)
 
 - This is my old portfolio site.
 
