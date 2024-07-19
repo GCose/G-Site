@@ -424,6 +424,7 @@ header.sticky .nav-bar {
   font-weight: 800;
   margin-bottom: 2rem;
   background: linear-gradient(to top, transparent 0%, var(--first-color) 70%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.1;
@@ -1019,6 +1020,7 @@ header.sticky .nav-bar {
   font-size: 4.2em;
   font-weight: 700;
   background: linear-gradient(to top, transparent 0%, var(--first-color) 30%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.9;
@@ -1210,6 +1212,7 @@ footer a {
   font-size: 3em;
   font-weight: 600;
   background: linear-gradient(to top, transparent 0%, #fff 50%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.8;

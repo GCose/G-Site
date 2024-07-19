@@ -165,39 +165,43 @@ ScrollReveal().reveal(".home .info h2, .section-title-01, .section-title-02", {
   delay: 200,
   origin: "left",
 });
+
 ScrollReveal().reveal(".home .info h3, .home .info p, .about-info .btn", {
   delay: 300,
   origin: "right",
 });
-ScrollReveal().reveal(".home .info .btn", { delay: 400, origin: "bottom" });
-ScrollReveal().reveal(".media-icons i, .contact-left li", {
+
+ScrollReveal().reveal(".home .info .btn", {
+  delay: 400,
+  origin: "bottom",
+});
+
+ScrollReveal().reveal(".about-img, .media-icons i, .contact-left li", {
   delay: 200,
   origin: "left",
   interval: 200,
 });
-ScrollReveal().reveal(".home-img, .about-img", {
+
+ScrollReveal().reveal(".home-img, .about .description", {
   delay: 200,
   origin: "bottom",
 });
-ScrollReveal().reveal(".about .description, .contact-right", {
-  delay: 300,
-  origin: "right",
-});
-ScrollReveal().reveal(".about, .professional-list li", {
-  delay: 200,
-  origin: "right",
-  interval: 200,
-});
+
 ScrollReveal().reveal(
   ".skills-description, .services-description, .contact-card, .client-swiper, .contact-left h2",
   { delay: 400, origin: "left" }
 );
+
 ScrollReveal().reveal(
   ".experience-card, .service-card, .education, .portfolio .img-card",
   { delay: 500, origin: "bottom", interval: 200 }
 );
-ScrollReveal().reveal("footer .group", {
-  delay: 200,
-  origin: "top",
-  interval: 200,
-});
+
+ScrollReveal().reveal(
+  ".about, footer .group, .contact-right, .professional-list li",
+  {
+    delay: 200,
+    origin: "top",
+    interval: 200,
+  }
+);
